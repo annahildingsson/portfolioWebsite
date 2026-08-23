@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Text to be displayed
-  const introText = "Hi, I'm Anna Granberg!";
+  const introText = "Hi, I'm Anna Hildingsson!";
 
   const introElement = document.querySelector(".hero-text h1");
 
