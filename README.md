@@ -6,7 +6,7 @@ The website was created to present my work and technical skills in a simple, pro
 
 ## 🌐 Live Website
 
-**Portfolio:** [https://annahildingsson.github.io/portfolioWebsite/](https://annahildingsson.github.io/portfolioWebsite/)
+**Portfolio:** [https://annahildingsson.se](annahildingsson.se)
 
 ## ✨ About
 
