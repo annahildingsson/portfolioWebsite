@@ -239,7 +239,7 @@ header nav ul li a:hover {
   grid-row: 1;
 }
 
-.project-c{
+.project-c {
   grid-column: 2;
   grid-row: 2;
 }
@@ -424,7 +424,7 @@ iframe {
     grid-template-columns: 1fr; /* single column */
     gap: 2rem;
   }
-   
+
   .project {
     grid-row: auto;
     grid-column: auto;
@@ -446,4 +446,46 @@ iframe {
   #intro-projects .projects-grid {
     grid-template-columns: 1fr;
   }
+  .course-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.course-list li {
+  background-color: #fafaf9;
+  border-left: 4px solid #e8678f;
+  padding: 1rem 1.2rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+.course-list li:hover {
+  transform: translateY(-2px);
+}
+
+.course-list span:first-child {
+  font-size: 0.95rem;
+  color: #333333;
+  line-height: 1.4;
+}
+
+.course-list .credits {
+  font-weight: 600;
+  color: #55705e;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  margin-left: 1rem;
 }
