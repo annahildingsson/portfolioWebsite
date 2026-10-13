@@ -17,10 +17,11 @@ main {
 /* ***** Header Style ***** */
 header {
   position: fixed; /* fixed at the top of the page */
-  top: 1.5rem;
+  top: 0;
   left: 0;
   width: 100%;
-  padding: 1rem 2rem; /* padding inside header */
+  padding: 2rem 2rem; /* padding inside header */
+  background-color: #f9f4f7;
   border-radius: 0;
   display: flex;
   align-items: center;
