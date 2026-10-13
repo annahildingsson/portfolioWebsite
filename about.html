@@ -6,6 +6,10 @@
     <meta name="description" content="Portfolio website of Anna Hildingsson" />
     <title>Anna Hildingsson | Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="header-placeholder"></div>
@@ -28,7 +32,7 @@
             attention to details, structure and user experience when building
             websites and applications.
           </p>
-       
+
           <h2>Technical skills</h2>
           <ul class="skills">
             <li>
@@ -66,9 +70,51 @@
           </ul>
         </div>
       </section>
+      <section id="hobbies">
+        <h1>On my spare time...</h1>
+        <div class="hobbies-grid">
+          <div class="hobby-card">
+            <h2>...I love to travel</h2>
+            <h3>Here are all of the countries I've visited in the past</h3>
+            <div id="map"></div>
+          </div>
+          <div class="hobby-card">
+            <h2>...I love to watch TV shows</h2>
+            <h3>Here are some tv-shows I've watched in the passed</h3>
+            <div id="series-list" class="series-container"></div>
+          </div>
+          <div class="hobby-card">
+            <h2>...I like to cook</h2>
+            <h3>Here are some of my favorite recipes</h3>
+            <div id="recipe-list" class="recipe-container"></div>
+          </div>
+          <div class="hobby-card">
+            <h2>...I like listening to music</h2>
+            <h3>My current coding soundtrack</h3>
+
+            <div class="spotify-container">
+              <iframe
+                data-testid="embed-iframe"
+                style="border-radius: 12px"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1DXdGHPXiRsW3u?utm_source=generator&si=b0d3f9e1b2c140cf"
+                width="100%"
+                height="352"
+                frameborder="0"
+                allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="js/main.js"></script>
     <script src="js/header.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="js/globe.js"></script>
+    <script src="js/tvShow.js"></script>
+    <script src="js/recipe.js"></script>
   </body>
 </html>

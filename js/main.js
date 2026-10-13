@@ -30,4 +30,3 @@ window.addEventListener("DOMContentLoaded", () => {
   const intro = document.getElementById("hero");
   intro.classList.add("show"); // triggers the transition
 });
-
