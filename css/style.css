@@ -647,4 +647,11 @@ iframe {
     grid-template-columns: 1fr;
     gap: 0.8rem;
   }
+
+  .hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem; 
+    width: 100%;
+  }
 }
