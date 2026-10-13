@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Text to be displayed
   const introText = "Hi, I'm Anna Hildingsson!";
-
   const introElement = document.querySelector(".hero-text h1");
 
   // Index for current character
